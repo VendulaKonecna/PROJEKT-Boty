@@ -3,9 +3,66 @@ html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
 body {
+    margin: 0;
+    padding: 0;
     text-rendering: optimizeLegibility;
+    background-color: #f5f5f5;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
 }
-
+h1{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li{
+    display: inline;
+}
+a{
+    color:white;
+    background-color: #f15f42;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+.seda{
+    color: #959595;
+}
+.bila{
+    color: white;
+}
+.slogan{
+    font-size: 16px;
+    font-weight: 500;
+}
+.cena{
+    font-size: 28px;
+    font-weight: 500;
+}
+.zaruka{
+    font-size: 12px;
+}
+.conteiner{
+    width: 670px;
+    height: 440px;
+    display: flex;
+}
+.bota{
+    flex-shrink: 50%;
+}
 /*
  BARVY
  svetle sede pozadi      #f5f5f5
